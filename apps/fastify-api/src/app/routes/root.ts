@@ -1,4 +1,4 @@
-import { renderHelloWorld } from '@org/api-hello-lib';
+import { renderHelloWorld } from "@org/api-hello-lib";
 import { FastifyInstance, FastifyRequest, FastifyReply } from 'fastify';
 
 export default async function (fastify: FastifyInstance) {

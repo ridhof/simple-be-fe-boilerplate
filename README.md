@@ -1,19 +1,19 @@
 # Simple Boilerplate FE and BE
-[Repository URL](https://github.com/ridhof/simple-be-fe-boilerplate)
+Repository URL: [https://github.com/ridhof/simple-be-fe-boilerplate](https://github.com/ridhof/simple-be-fe-boilerplate)
 
 ## requirements
-[x] unit testing
-[x] code linting
-[x] initial project structure
-[x] build scripts
-[x] typescript
-[x] husky
+- [x] unit testing
+- [x] code linting
+- [x] initial project structure
+- [x] build scripts
+- [x] typescript
+- [x] husky
 
 ## stacks
-[x] NX, monorepo tooling, to manage multiple apps and tools with through single tool
-[x] pnpm, alternative to npm that enables smart modules installation
-[x] fastify, used as the backend framework
-[x] nextjs,  used as the frontend framework
+- [x] NX, monorepo tooling, to manage multiple apps and tools with through single tool
+- [x] pnpm, alternative to npm that enables smart modules installation
+- [x] fastify, used as the backend framework
+- [x] nextjs,  used as the frontend framework
 
 ## commands
 - `pnpm api:serve` to run backend

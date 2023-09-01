@@ -11,7 +11,8 @@
 ## stacks
 [x] NX, monorepo tooling, to manage multiple apps and tools with through single tool
 [x] pnpm, alternative to npm that enables smart modules installation
-[x] fastify  used as the backend framework
+[x] fastify, used as the backend framework
+[x] nextjs,  used as the frontend framework
 
 ## commands
 - `pnpm api:serve` to run backend

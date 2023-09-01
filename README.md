@@ -18,3 +18,7 @@
 - `pnpm nx g @nx/node:lib library-name` to create a new backend library
 - `pnpm nx affected -t test` to run test on affected module on changes, used on husky
 - `pnpm nx affected -t lint` to run lint on affected module on changes, used on husky
+
+## getting started
+1. Run `pnpm init`
+2. Run `pnpm nx run-many -t serve` to run both backend and frontend together

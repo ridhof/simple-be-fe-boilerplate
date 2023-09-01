@@ -1,3 +1,4 @@
+import { renderHelloWorld } from '@org/api-hello-lib';
 import Fastify, { FastifyInstance } from 'fastify';
 import { app } from './app';
 
@@ -15,6 +16,6 @@ describe('GET /', () => {
       url: '/',
     });
 
-    expect(response.json()).toEqual({ message: 'Hello API' });
+    expect(response.json()).toEqual({ message: renderHelloWorld() });
   });
 });

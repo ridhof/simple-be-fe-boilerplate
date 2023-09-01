@@ -1,12 +1,12 @@
 # Simple Boilerplate FE and BE
 
 ## requirements
-[ ] unit testing
-[ ] code linting
+[x] unit testing
+[x] code linting
 [x] initial project structure
-[ ] build scripts
+[x] build scripts
 [x] typescript
-[ ] husky
+[x] husky
 
 ## stacks
 [x] NX, monorepo tooling, to manage multiple apps and tools with through single tool
@@ -16,4 +16,5 @@
 ## commands
 - `pnpm api:serve` to run backend
 - `pnpm nx g @nx/node:lib library-name` to create a new backend library
-- `pnpm nx affected -t test` to run test on affected module on changes, will be useed on husky
+- `pnpm nx affected -t test` to run test on affected module on changes, used on husky
+- `pnpm nx affected -t lint` to run lint on affected module on changes, used on husky

@@ -1,2 +1,1 @@
-pnpm affected:lint
-pnpm affected:test
+pnpm nx run-many -t lint test

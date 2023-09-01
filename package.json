@@ -5,6 +5,7 @@
   "scripts": {
     "prepare": "husky install",
     "api:serve": "pnpm nx serve fastify-api",
+    "build": "pnpm nx run-many -t build",
     "affected:lint": "pnpm nx affected -t lint",
     "affected:test": "pnpm nx affected -t test"
   },

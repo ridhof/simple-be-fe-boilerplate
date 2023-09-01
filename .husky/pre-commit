@@ -1,1 +1,2 @@
+pnpm affected:lint
 pnpm affected:test

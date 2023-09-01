@@ -3,7 +3,7 @@
 ## requirements
 [ ] unit testing
 [ ] code linting
-[ ] initial project structure
+[x] initial project structure
 [ ] build scripts
 [x] typescript
 [ ] husky
@@ -15,3 +15,5 @@
 
 ## commands
 - `pnpm api:serve` to run backend
+- `pnpm nx g @nx/node:lib library-name` to create a new backend library
+- `pnpm nx affected -t test` to run test on affected module on changes, will be useed on husky
